@@ -2,42 +2,31 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>CX</title>
-<style type="text/css">
-body,td,th {
-	font-family: "微软雅黑 Light";
-	color: #000;
-}
-body {
-	background-color: #FFF;
-}
-a:link {
-	color: #06F;
-	text-decoration: none;
-}
-a:visited {
-	text-decoration: none;
-	color: #F00;
-}
-a:hover {
-	text-decoration: none;
-}
-a:active {
-	text-decoration: none;
-}
-</style>
+<title>无标题文档</title>
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-<div style="text-align:center;">
-<h1><strong>CX网站</strong></h1>
+<div style="text-align:	center;">
+<h1>CX网站</h1>
 </div>
 <div>
-  <p><a href="https://wangyichengcx.github.io/6943614390664742.github.io/">罗辑的网站
- </a></p>
-  <p>
-    <a href="https://wangyichengcx.github.io/liucixin.html">刘慈欣作品下载（蓝奏云，密码3santi）
-    </a></p>
+  <ul id="MenuBar1" class="MenuBarHorizontal">
+    <li><a class="MenuBarItemSubmenu" href="#">三体</a>
+      <ul>
+        <li><a href="https://wangyichengcx.github.io/6943614390664742.github.io/" target="_self">罗辑的网站</a></li>
+</ul>
+    </li>
+    <li><a href="#" target="_self" class="MenuBarItemSubmenu">下载</a>
+      <ul>
+        <li><a href="https://wangyichengcx.github.io/liucixin.html" target="_self">刘慈欣作品下载</a></li>
+      </ul>
+    </li>
+</ul>
 </div>
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
 </body>
 </html>
